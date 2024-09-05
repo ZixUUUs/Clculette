@@ -1,0 +1,50 @@
+body {
+  background-image: url(./background.jpg);
+}
+
+h1 {
+  box-shadow: -5px -5px 15px #045b91c1, 5px 5px 15px #023e6e,
+    inset 5px 5px 10px #045b91c1, inset -5px -5px 10px #023e6e;
+  font-size: 48px;
+  width: 500px;
+  height: auto;
+  padding: auto;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.751);
+  background-color: rgba(6, 127, 213, 0.879);
+  text-align: center;
+  border-radius: 5px;
+}
+button {
+  background-color: rgba(6, 127, 213, 0.879);
+  box-shadow: -5px -5px 15px #045b91c1, 5px 5px 15px #023e6e,
+    inset 5px 5px 10px #045b91c1, inset -5px -5px 10px #023e6e;
+  align-items: center;
+  border-color: #035293;
+  border-radius: 100%;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  text-align: center;
+}
+button:hover {
+  box-shadow: -5px -5px 15px #045b91c1, 5px 5px 15px #023e6e,
+    inset 5px 5px 10px #023e6e, inset -5px -5px 10px #045b91c1;
+  font-size: 15px;
+  transition: 500ms;
+  text-shadow: #023e6e;
+}
+button:focus {
+  outline: none;
+}
